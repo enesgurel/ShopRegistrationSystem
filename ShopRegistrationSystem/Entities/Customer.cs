@@ -1,0 +1,16 @@
+﻿using ShopRegistrationSystem.Abstract;
+using System;
+using System.Collections.Generic;
+using System.Text;
+
+namespace ShopRegistrationSystem.Entities
+{
+    public class Customer:IEntitiy
+    {
+        public int Id { get; set; }
+        public string FirstName { get; set; }
+        public string LastName { get; set; }
+        public DateTime DateOFBirth { get; set; }
+        public string NationalityId { get; set; }
+    }
+}
